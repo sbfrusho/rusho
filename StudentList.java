@@ -8,7 +8,7 @@ public class StudentList {
 
 	public static Constants constants = new Constants();
 	public static String studentName;
-//		Write names to the file
+//	Write names to the file
 	public static void writeFile(String readName){
 		try {
 			BufferedWriter bufferedWriter = new BufferedWriter(
@@ -19,7 +19,7 @@ public class StudentList {
 		} catch (Exception e) {}
 	}
 
-//		Read names from the file
+//	Read names from the file
 	public static void readFile(){
 		try {
 			BufferedReader bufferedReader = new BufferedReader
