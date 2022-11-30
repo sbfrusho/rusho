@@ -15,5 +15,6 @@ public class Constants {
     public String split = ", ";
     public char comma = ',';
     public String wrongArgument = "Wrong argument passed.Try again.";
+    //this is constant class
 }
 
